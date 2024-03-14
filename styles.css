@@ -1,0 +1,34 @@
+/* styles.css */
+.fantastico {
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Cambia a tu fuente fantástica */
+    color: blue; /* Color azul */
+    font-weight: bold; /* Negrita */
+}
+
+.label-texto,
+.label-opcion,
+.label-resultado {
+    font-weight: bold; /* Negrita */
+	 color: #007bff; /* Color azul según el esquema de colores de Bootstrap */
+}
+
+.label-texto::after,
+.label-opcion::after,
+.label-resultado::after {
+    content: ":"; /* Agrega dos puntos después del texto */
+}
+
+.label-texto::before,
+.label-opcion::before,
+.label-resultado::before {
+    content: "➤"; /* Agrega un símbolo antes del texto */
+    margin-right: 5px; /* Espacio entre el símbolo y el texto */
+}
+
+.alert-danger {
+    color: #721c24; /* Color oscuro para el mensaje de error */
+    background-color: #f8d7da; /* Color de fondo del mensaje de error */
+    border-color: #f5c6cb; /* Color del borde del mensaje de error */
+}
+
+
